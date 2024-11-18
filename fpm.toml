@@ -1,0 +1,22 @@
+name = "fsieve"
+version = "0.1.0"
+license = "license"
+author = "Zander Lewis"
+maintainer = "zander@zanderlewis.dev"
+copyright = "Copyright 2024, Zander Lewis"
+
+[build]
+auto-executables = true
+auto-tests = false
+auto-examples = true
+module-naming = false
+link = ["gomp"]
+
+[install]
+library = false
+
+[fortran]
+implicit-typing = false
+implicit-external = false
+source-form = "free"
+
